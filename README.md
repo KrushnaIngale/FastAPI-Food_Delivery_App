@@ -107,20 +107,21 @@ Supports:
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-### Start server
+## Start server
 ```bash
 uvicorn main:app --reload
-
-### Access API Docs
+```
+## Access API Docs
 ```bash
 http://127.0.0.1:8000/docs
-
-###📸 Screenshots
+```
+##📸 Screenshots
 
 - All API responses (Q1–Q20) are documented in the screenshots/ folder.
 
-### 📂 Project Structure
+## 📂 Project Structure
 ```bash
 main.py
 requirements.txt
